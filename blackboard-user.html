@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blackboard User Account</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+     <!--HEADER INFO -->
+
+     <header>
+        <img src="img/Humber_Logo.svg" alt="Humber logo" class="logo-set">
+     
+        <div class="top-bar">
+           <h1>feedback forum</h1> 
+        </div>
+
+    </header>
+
+
+    <!--MAIN USER ACCOUNT-->
+ 
+    <form action="" class="old-user" id="userform">
+
+      <label for="username" class="username">username</label>  
+      <input type="text" placeholder="email" id="email">
+      <br/><br/>
+      <label for="password" class="password">password</label>
+      <input type="text" placeholder="password" id="password">
+      <br/><br/><br/>
+      <input type="submit" class="login" value="login" id="login">
+
+    </form>
+<ul id="users" style = "list-style-type: none;"></ul>
+      <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.7.0/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+     <script src="https://www.gstatic.com/firebasejs/8.7.0/firebase-firestore.js"></script>
+     <script src="https://www.gstatic.com/firebasejs/8.7.0/firebase-auth.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  var firebaseConfig = {
+    apiKey: "AIzaSyD--j-8RaHmYFGwy82A_LLWN1AA_BekHuo",
+    authDomain: "fir-assignment-143da.firebaseapp.com",
+    projectId: "fir-assignment-143da",
+    storageBucket: "fir-assignment-143da.appspot.com",
+    messagingSenderId: "365682695919",
+    appId: "1:365682695919:web:296076d961b6075a29851a",
+    measurementId: "G-0M0WHV92VH"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  </script>
+  </script>
+  <script src="js/login.js"></script>
+</body>
+</html>
