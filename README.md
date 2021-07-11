@@ -4,7 +4,9 @@ About Web Application: This Humber Feedback application is to used to get feedba
 
 Group Members:
 Avi Kaura : Designing and Development
+
 Keerthivasan Kumar: Designing and Development
+
 Ishita Raval: Designing and Development
 
 In this, our team focused on developing application with collaboration of firebase data storages and tried to use some basic conceptsof this database such as firestore, storage, delete and authentication.
